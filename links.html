@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home | HTML Review</title>
+    <title>Links | HTML Review</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -16,59 +16,53 @@
       ><a href="metadata.html">Metadata</a>
     </nav>
     <main>
-      <h2>Home &amp; page structure</h2>
+      <h2>Links &amp; images</h2>
       <section>
-        <h3>&lt;html&gt;</h3>
-        <p>The root element that contains the whole page.</p>
+        <h3>&lt;a&gt;</h3>
+        <p>Creates a link to another page or file.</p>
         <table>
           <tr>
             <th>Attribute</th>
             <th>Role</th>
           </tr>
           <tr>
-            <td>lang</td>
-            <td>Language of the page.</td>
+            <td>href</td>
+            <td>Address of the link.</td>
+          </tr>
+          <tr>
+            <td>target</td>
+            <td>Where to open it (_blank = new tab).</td>
           </tr>
         </table>
-        <pre><code>&lt;html lang="en"&gt;...&lt;/html&gt;</code></pre>
+        <pre><code>&lt;a href="https://www.w3schools.com" target="_blank"&gt;W3Schools&lt;/a&gt;</code></pre>
         <div class="result">
-          This page itself is inside an &lt;html lang="en"&gt; tag.
+          <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
         </div>
       </section>
       <section>
-        <h3>&lt;body&gt;</h3>
-        <p>Contains all the visible content of the page.</p>
+        <h3>&lt;img&gt;</h3>
+        <p>Displays an image. It has no closing tag.</p>
         <table>
           <tr>
             <th>Attribute</th>
             <th>Role</th>
           </tr>
           <tr>
-            <td>class</td>
-            <td>Name used by CSS.</td>
-          </tr>
-        </table>
-        <pre><code>&lt;body&gt;&lt;p&gt;Visible text&lt;/p&gt;&lt;/body&gt;</code></pre>
-        <div class="result"><p>Visible text</p></div>
-      </section>
-      <section>
-        <h3>&lt;h1&gt; to &lt;h6&gt;</h3>
-        <p>Headings from the most important (h1) to the least (h6).</p>
-        <table>
-          <tr>
-            <th>Attribute</th>
-            <th>Role</th>
+            <td>src</td>
+            <td>Path of the image.</td>
           </tr>
           <tr>
-            <td>id</td>
-            <td>Unique name of the heading.</td>
+            <td>alt</td>
+            <td>Text shown if the image fails.</td>
+          </tr>
+          <tr>
+            <td>width</td>
+            <td>Width in pixels.</td>
           </tr>
         </table>
-        <pre><code>&lt;h1&gt;Title&lt;/h1&gt;
-&lt;h6&gt;Small title&lt;/h6&gt;</code></pre>
+        <pre><code>&lt;img src="images/cat2-1024x676.jpg" alt="A cat" width="300"&gt;</code></pre>
         <div class="result">
-          <h1>Title</h1>
-          <h6>Small title</h6>
+          <img src="images/cat2-1024x676.jpg" alt="A cat" width="300" />
         </div>
       </section>
     </main>

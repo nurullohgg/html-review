@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lists | HTML Review</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header><h1>HTML Review</h1></header>
+    <nav>
+      <a href="index.html">Home</a><a href="text.html">Text</a
+      ><a href="links.html">Links</a><a href="lists.html">Lists</a
+      ><a href="tables.html">Tables</a><a href="forms.html">Forms</a
+      ><a href="media.html">Media</a><a href="semantic.html">Semantic</a
+      ><a href="metadata.html">Metadata</a>
+    </nav>
+    <main>
+      <h2>Lists</h2>
+      <section>
+        <h3>&lt;ul&gt;</h3>
+        <p>Unordered list with bullet points. Each item is an &lt;li&gt;.</p>
+        <table>
+          <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+          </tr>
+          <tr>
+            <td>class</td>
+            <td>Name used by CSS.</td>
+          </tr>
+        </table>
+        <pre><code>&lt;ul&gt;&lt;li&gt;Milk&lt;/li&gt;&lt;li&gt;Bread&lt;/li&gt;&lt;/ul&gt;</code></pre>
+        <div class="result">
+          <ul>
+            <li>Milk</li>
+            <li>Bread</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h3>&lt;ol&gt;</h3>
+        <p>Ordered list with numbers or letters.</p>
+        <table>
+          <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+          </tr>
+          <tr>
+            <td>type</td>
+            <td>Kind of marker (1, A, a, I, i).</td>
+          </tr>
+          <tr>
+            <td>start</td>
+            <td>First number of the list.</td>
+          </tr>
+        </table>
+        <pre><code>&lt;ol type="A" start="3"&gt;&lt;li&gt;First&lt;/li&gt;&lt;li&gt;Second&lt;/li&gt;&lt;/ol&gt;</code></pre>
+        <div class="result">
+          <ol type="A" start="3">
+            <li>First</li>
+            <li>Second</li>
+          </ol>
+        </div>
+      </section>
+      <section>
+        <h3>&lt;dl&gt;</h3>
+        <p>
+          Description list: terms (&lt;dt&gt;) with descriptions (&lt;dd&gt;).
+        </p>
+        <table>
+          <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+          </tr>
+          <tr>
+            <td>id</td>
+            <td>Unique name of the list.</td>
+          </tr>
+        </table>
+        <pre><code>&lt;dl&gt;&lt;dt&gt;HTML&lt;/dt&gt;&lt;dd&gt;Structure of a web page&lt;/dd&gt;&lt;/dl&gt;</code></pre>
+        <div class="result">
+          <dl>
+            <dt>HTML</dt>
+            <dd>Structure of a web page</dd>
+          </dl>
+        </div>
+      </section>
+    </main>
+    <footer>&copy; 2026 HTML Review</footer>
+  </body>
+</html>

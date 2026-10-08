@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media | HTML Review</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header><h1>HTML Review</h1></header>
+    <nav>
+      <a href="index.html">Home</a><a href="text.html">Text</a
+      ><a href="links.html">Links</a><a href="lists.html">Lists</a
+      ><a href="tables.html">Tables</a><a href="forms.html">Forms</a
+      ><a href="media.html">Media</a><a href="semantic.html">Semantic</a
+      ><a href="metadata.html">Metadata</a>
+    </nav>
+    <main>
+      <h2>Multimedia</h2>
+      <section>
+        <h3>&lt;video&gt;</h3>
+        <p>Plays a video file in the page.</p>
+        <table>
+          <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+          </tr>
+          <tr>
+            <td>src</td>
+            <td>Path of the video.</td>
+          </tr>
+          <tr>
+            <td>controls</td>
+            <td>Shows play/pause buttons.</td>
+          </tr>
+          <tr>
+            <td>width</td>
+            <td>Width in pixels.</td>
+          </tr>
+        </table>
+        <pre><code>&lt;video src="images/13004157_1080_1920_60fps.mp4" controls width="250"&gt;&lt;/video&gt;</code></pre>
+        <div class="result">
+          <video
+            src="images/13004157_1080_1920_60fps.mp4"
+            controls
+            width="250"
+          ></video>
+        </div>
+      </section>
+      <section>
+        <h3>&lt;audio&gt;</h3>
+        <p>Plays a sound file in the page.</p>
+        <table>
+          <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+          </tr>
+          <tr>
+            <td>src</td>
+            <td>Path of the sound.</td>
+          </tr>
+          <tr>
+            <td>controls</td>
+            <td>Shows play/pause buttons.</td>
+          </tr>
+          <tr>
+            <td>loop</td>
+            <td>Repeats the sound.</td>
+          </tr>
+        </table>
+        <pre><code>&lt;audio src="images/sound.mp3" controls&gt;&lt;/audio&gt;</code></pre>
+        <div class="result">
+          <audio src="images/sound.mp3" controls></audio>
+        </div>
+      </section>
+      <section>
+        <h3>&lt;iframe&gt;</h3>
+        <p>Shows another web page inside this page.</p>
+        <table>
+          <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+          </tr>
+          <tr>
+            <td>src</td>
+            <td>Address of the page.</td>
+          </tr>
+          <tr>
+            <td>width / height</td>
+            <td>Size of the frame.</td>
+          </tr>
+        </table>
+        <pre><code>&lt;iframe src="text.html" width="400" height="200"&gt;&lt;/iframe&gt;</code></pre>
+        <div class="result">
+          <iframe src="text.html" width="400" height="200"></iframe>
+        </div>
+      </section>
+    </main>
+    <footer>&copy; 2026 HTML Review</footer>
+  </body>
+</html>

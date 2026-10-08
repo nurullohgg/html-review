@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic | HTML Review</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header><h1>HTML Review</h1></header>
+    <nav>
+      <a href="index.html">Home</a><a href="text.html">Text</a
+      ><a href="links.html">Links</a><a href="lists.html">Lists</a
+      ><a href="tables.html">Tables</a><a href="forms.html">Forms</a
+      ><a href="media.html">Media</a><a href="semantic.html">Semantic</a
+      ><a href="metadata.html">Metadata</a>
+    </nav>
+    <main>
+      <h2>Semantic &amp; layout tags</h2>
+      <section>
+        <h3>&lt;header&gt;, &lt;nav&gt;, &lt;footer&gt;</h3>
+        <p>Top part, navigation menu and bottom part of a page.</p>
+        <table>
+          <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+          </tr>
+          <tr>
+            <td>class</td>
+            <td>Name used by CSS.</td>
+          </tr>
+        </table>
+        <pre><code>&lt;header&gt;HTML Review&lt;/header&gt;
+&lt;nav&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt;&lt;/nav&gt;
+&lt;footer&gt;&amp;copy; 2026&lt;/footer&gt;</code></pre>
+        <div class="result">See the top and bottom of this page.</div>
+      </section>
+      <section>
+        <h3>&lt;article&gt;</h3>
+        <p>Independent content, like a blog post or news item.</p>
+        <table>
+          <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+          </tr>
+          <tr>
+            <td>id</td>
+            <td>Unique name of the article.</td>
+          </tr>
+        </table>
+        <pre><code>&lt;article&gt;&lt;h4&gt;News&lt;/h4&gt;&lt;p&gt;School starts Monday.&lt;/p&gt;&lt;/article&gt;</code></pre>
+        <div class="result">
+          <article>
+            <h4>News</h4>
+            <p>School starts Monday.</p>
+          </article>
+        </div>
+      </section>
+      <section>
+        <h3>&lt;div&gt;</h3>
+        <p>A generic box used to group elements for layout.</p>
+        <table>
+          <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+          </tr>
+          <tr>
+            <td>class</td>
+            <td>Name used by CSS.</td>
+          </tr>
+          <tr>
+            <td>id</td>
+            <td>Unique name of the box.</td>
+          </tr>
+        </table>
+        <pre><code>&lt;div class="result"&gt;Inside a box&lt;/div&gt;</code></pre>
+        <div class="result">Inside a box</div>
+      </section>
+    </main>
+    <footer>&copy; 2026 HTML Review</footer>
+  </body>
+</html>

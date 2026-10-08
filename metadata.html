@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="HTML metadata tags" />
+    <title>Metadata | HTML Review</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header><h1>HTML Review</h1></header>
+    <nav>
+      <a href="index.html">Home</a><a href="text.html">Text</a
+      ><a href="links.html">Links</a><a href="lists.html">Lists</a
+      ><a href="tables.html">Tables</a><a href="forms.html">Forms</a
+      ><a href="media.html">Media</a><a href="semantic.html">Semantic</a
+      ><a href="metadata.html">Metadata</a>
+    </nav>
+    <main>
+      <h2>Metadata</h2>
+      <section>
+        <h3>&lt;meta&gt;</h3>
+        <p>
+          Gives information about the page, inside &lt;head&gt;. Not visible.
+        </p>
+        <table>
+          <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+          </tr>
+          <tr>
+            <td>charset</td>
+            <td>Character encoding (UTF-8).</td>
+          </tr>
+          <tr>
+            <td>name</td>
+            <td>Kind of information (description, viewport...).</td>
+          </tr>
+          <tr>
+            <td>content</td>
+            <td>Value of the information.</td>
+          </tr>
+        </table>
+        <pre><code>&lt;meta name="description" content="HTML metadata tags"&gt;</code></pre>
+        <div class="result">Not visible: search engines read it.</div>
+      </section>
+      <section>
+        <h3>&lt;title&gt;</h3>
+        <p>Text shown in the browser tab.</p>
+        <table>
+          <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+          </tr>
+          <tr>
+            <td>(none)</td>
+            <td>Only text inside.</td>
+          </tr>
+        </table>
+        <pre><code>&lt;title&gt;Metadata | HTML Review&lt;/title&gt;</code></pre>
+        <div class="result">Look at the browser tab.</div>
+      </section>
+      <section>
+        <h3>&lt;link&gt;</h3>
+        <p>Connects an external file, like a CSS stylesheet.</p>
+        <table>
+          <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+          </tr>
+          <tr>
+            <td>rel</td>
+            <td>Type of relation (stylesheet).</td>
+          </tr>
+          <tr>
+            <td>href</td>
+            <td>Path of the file.</td>
+          </tr>
+        </table>
+        <pre><code>&lt;link rel="stylesheet" href="css/style.css"&gt;</code></pre>
+        <div class="result">
+          The colors of this page come from css/style.css.
+        </div>
+      </section>
+    </main>
+    <footer>&copy; 2026 HTML Review</footer>
+  </body>
+</html>

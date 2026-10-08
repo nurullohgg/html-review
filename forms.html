@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms | HTML Review</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header><h1>HTML Review</h1></header>
+    <nav>
+      <a href="index.html">Home</a><a href="text.html">Text</a
+      ><a href="links.html">Links</a><a href="lists.html">Lists</a
+      ><a href="tables.html">Tables</a><a href="forms.html">Forms</a
+      ><a href="media.html">Media</a><a href="semantic.html">Semantic</a
+      ><a href="metadata.html">Metadata</a>
+    </nav>
+    <main>
+      <h2>Forms</h2>
+      <section>
+        <h3>&lt;form&gt;</h3>
+        <p>Groups input fields to send data.</p>
+        <table>
+          <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+          </tr>
+          <tr>
+            <td>action</td>
+            <td>Where the data is sent.</td>
+          </tr>
+          <tr>
+            <td>method</td>
+            <td>How it is sent (get or post).</td>
+          </tr>
+        </table>
+        <pre><code>&lt;form action="#" method="get"&gt;&lt;button&gt;Send&lt;/button&gt;&lt;/form&gt;</code></pre>
+        <div class="result">
+          <form action="#" method="get"><button>Send</button></form>
+        </div>
+      </section>
+      <section>
+        <h3>&lt;input&gt;</h3>
+        <p>A field where the user types or chooses data.</p>
+        <table>
+          <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+          </tr>
+          <tr>
+            <td>type</td>
+            <td>Kind of field (text, email, password...).</td>
+          </tr>
+          <tr>
+            <td>name</td>
+            <td>Name of the data sent.</td>
+          </tr>
+          <tr>
+            <td>placeholder</td>
+            <td>Hint text inside the field.</td>
+          </tr>
+        </table>
+        <pre><code>&lt;input type="email" name="mail" placeholder="Your email"&gt;</code></pre>
+        <div class="result">
+          <input type="email" name="mail" placeholder="Your email" />
+        </div>
+      </section>
+      <section>
+        <h3>&lt;select&gt;</h3>
+        <p>A drop-down list of &lt;option&gt; items.</p>
+        <table>
+          <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+          </tr>
+          <tr>
+            <td>name</td>
+            <td>Name of the data sent.</td>
+          </tr>
+          <tr>
+            <td>multiple</td>
+            <td>Allows choosing several options.</td>
+          </tr>
+        </table>
+        <pre><code>&lt;select name="city"&gt;&lt;option&gt;Tashkent&lt;/option&gt;&lt;option&gt;Samarkand&lt;/option&gt;&lt;/select&gt;</code></pre>
+        <div class="result">
+          <select name="city">
+            <option>Tashkent</option>
+            <option>Samarkand</option>
+          </select>
+        </div>
+      </section>
+    </main>
+    <footer>&copy; 2026 HTML Review</footer>
+  </body>
+</html>
